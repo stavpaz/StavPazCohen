@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us form</title>
+</head>
+<body>
+    <img src="/Users/stavo/Documents/StavPazCohen/static/contact us.jpg" alt="contact us" style="height: 100px;" >
+    <center>
+    <h1  style="color: rgb(85, 130, 182);"> Contact Us </h1> 
+    <form action="url" method="get">
+<label for="FirstName" style="color: rgb(66, 100, 138);">First Name</label> 
+<input type="text" name="FirstName" id="FirstName"  required> <br> <br>
+<label for="Email" style="color:  rgb(66, 100, 138);">Email</label>
+<input type="email" name="Email" id="Email" required > <br> <br>
+<label for="PhoneNumber" style="color:  rgb(66, 100, 138)">Phone Number</label>
+<input type="tel" name="PhoneNumber" id="PhoneNumber" required pattern="[0][5][0-9]-[0-9][0-9][0-9][0-9][0-9][0-9][0-9]" > <br> <br>
+<label for="info" style="color:  rgb(66, 100, 138);">Information</label>
+<input type="text" size="100" name="info" id="info" required minlength="5" maxlength="200"> <br> <br>
+<label for="date" style="color:  rgb(66, 100, 138);"> please choose date for possible meeting if necessary</label> <br> <br>
+<input type="date" name="date" id="date"> <br> <br>
+<label for="time" style="color:  rgb(66, 100, 138);"> please choose time for possible meeting if necessary</label> <br> <br>
+<input type="time" name="time" id="time" min="08:00" max="20:00"><br> <br>
+<input type="submit" name="submit" id="submit"> <br> <br>
+</center>
+<nav> 
+    <div>
+        <h3>Navigator Bar</h3>
+        <a href="/Users/stavo/Documents/StavPazCohen/templates/HomePage.html"> Back to Home Page</a>
+    
+    </div>
+        </nav>
+
+    </form>
+</body>
+</html>
