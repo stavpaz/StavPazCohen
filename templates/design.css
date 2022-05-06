@@ -26,6 +26,14 @@ center{
     font-size:xx-large;
 }
 
+body{
+    background-image: url(/Users/stavo/Documents/StavPazCohen/static/m.jpg);
+    background-repeat: no-repeat;
+    width:1250px;
+    height: 1000px;
+    
+}
+
 @font-face {
     font-family: headerfont;
     src: url(/Users/stavo/Documents/StavPazCohen/static/Poppins-Thin.ttf);

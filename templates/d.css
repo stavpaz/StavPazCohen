@@ -1,0 +1,47 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+#container /*לגשת לID*/ {
+    position: absolute;
+  justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,300px));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+
+
+.headerdesign
+{
+    font-family: headerfont;
+}
+
+
+center{
+    color: rgb(108, 108, 108);
+    background-color: rgba(205, 205, 205, 0.6);
+    font-size:xx-large;
+    font-family: headerfont;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@font-face {
+    font-family: headerfont;
+    src: url(/Users/stavo/Documents/StavPazCohen/static/Poppins-Thin.ttf);
+}
+
