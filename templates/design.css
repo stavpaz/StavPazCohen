@@ -1,0 +1,33 @@
+
+
+nav{
+    position: static;
+    position: relative;
+    font-family: headerfont;
+}
+.headcontactus
+{
+    color: rgb(142, 142, 142); 
+    background-color: rgb(255, 255, 255,0.4);
+    font-family: headerfont;
+    
+
+}
+
+.headerhome
+{
+    font-family: headerfont;
+}
+
+
+center{
+    color: rgb(108, 108, 108);
+    background-color: rgb(255, 255, 255,0.3);
+    font-size:xx-large;
+}
+
+@font-face {
+    font-family: headerfont;
+    src: url(/Users/stavo/Documents/StavPazCohen/static/Poppins-Thin.ttf);
+}
+
