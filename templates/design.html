@@ -18,30 +18,100 @@
 
 
 <div id="container">
- 
+    <div class="slide">
         <img src="/Users/stavo/Documents/StavPazCohen/static/bethrooms.PNG" alt="">
-   
- 
+    </div>
+    <div class="slide">
         <img src="/Users/stavo/Documents/StavPazCohen/static/try.PNG" alt="">
-    
- 
+    </div>
+    <div class="slide">
         <img src="/Users/stavo/Documents/StavPazCohen/static/g.jpg" alt="">
-
+    </div>
+    <div class="slide">
         <img src="/Users/stavo/Documents/StavPazCohen/static/room.jpg" alt="">
-        <img src="/Users/stavo/Documents/StavPazCohen/static/bethrooms2.jpg" alt="">
-        <img src="/Users/stavo/Documents/StavPazCohen/static/bethrooms3.jpg" alt="">
-        <img src="/Users/stavo/Documents/StavPazCohen/static/bethrooms4.jpg" alt="">
-        <img src="/Users/stavo/Documents/StavPazCohen/static/bethrom6.jpg" alt="">
-        <img src="/Users/stavo/Documents/StavPazCohen/static/bethroom7.jpg" alt="">
-        <img src="/Users/stavo/Documents/StavPazCohen/static/kitchen 5.jpg" alt="">
-        <img src="/Users/stavo/Documents/StavPazCohen/static//kitchens3.jpg" alt="">
-        <img src="/Users/stavo/Documents/StavPazCohen/static/livingroom.jpg" alt="">
-        <img src="/Users/stavo/Documents/StavPazCohen/static/kitchen2.jpg" alt="">
-        <img src="/Users/stavo/Documents/StavPazCohen/static/kitchen4.jpg" alt="">
-        <img src="/Users/stavo/Documents/StavPazCohen/static/kitchen3.jpg" alt="">
-        <img src="/Users/stavo/Documents/StavPazCohen/static/room2.jpg" alt="">
-    
+    </div>
+        
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static/bethrooms2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static/bethrooms3.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static/bethrooms4.jpg" alt="">
+        </div>
+       
+        
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static/bethrom6.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static/bethroom7.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static/bethroom7.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static/kitchen 5.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static//kitchens3.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static/livingroom.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static/kitchen2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static/kitchen4.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static/kitchen3.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/Users/stavo/Documents/StavPazCohen/static/room2.jpg" alt="">
+        </div>
+       
+        <div class="btnload">
+            <button class="btn" id="bt">load more</button>
+            <div class="container">
+                <div class="dot dot1" id="dott1"></div>
+                <div class="dot dot2" id="dott2"></div>
+                <div class="dot dot3" id="dott3"></div>
+            </div>
+            
+        </div>
+        
 </div>
 
+<script>
+    var slide=document.querySelectorAll('.slide');
+    var btn=document.querySelector('.btn');
+    var currenttime=4
+    var delayInMilliseconds = 2000;
+    bt.addEventListener('click',function(){
+                dott1.style.animation = 'jumpup 0.4s 0.1s linear 2' ;
+                dott2.style.animation = "jumpup 0.4s 0.2s linear 2";
+                dott3.style.animation = "jumpup 0.4s 0.3s linear 2 ";
+                setTimeout(function() {
+                            }, delayInMilliseconds);
+        
+        for(var i=currenttime; i<currenttime+4; i++)
+        {
+            
+            if(slide[i])
+            {
+                slide[i].style.display='block';
+            }
+        }
+        currenttime+=4;
+        if(currenttime>=slide.length)
+        {
+
+            event.target.style.display='none';
+        }
+    })
+</script>
 </body>
 </html>
