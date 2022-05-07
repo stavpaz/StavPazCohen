@@ -1,4 +1,4 @@
-body{
+.images{
     margin:0;
     padding: 0;
     height: 100vh;
@@ -97,3 +97,45 @@ body{
 #bt4:checked ~ .navigator .auto4{
     background:  #e7dfd8;
 }
+
+
+
+nav{
+    position: static;
+    position: relative;
+    font-family: headerfont;
+}
+.headcontactus
+{
+    color: rgb(142, 142, 142); 
+    background-color: rgb(255, 255, 255,0.4);
+    font-family: headerfont;
+    
+
+}
+
+.headerhome
+{
+    font-family: headerfont;
+}
+
+
+center{
+    color: rgb(108, 108, 108);
+    background-color: rgb(255, 255, 255,0.3);
+    font-size:xx-large;
+}
+
+body{
+    background-image: url(/Users/stavo/Documents/StavPazCohen/static/m.jpg);
+    background-repeat: no-repeat;
+    width:1250px;
+    height: 1000px;  
+}
+
+
+@font-face {
+    font-family: headerfont;
+    src: url(/Users/stavo/Documents/StavPazCohen/static/Poppins-Thin.ttf);
+}
+
