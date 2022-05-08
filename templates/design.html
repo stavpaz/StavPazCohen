@@ -90,12 +90,12 @@
     var btn=document.querySelector('.btn');
     var currenttime=4
     var delayInMilliseconds = 2000;
-    bt.addEventListener('click',function(){
-                dott1.style.animation = 'jumpup 0.4s 0.1s linear 2' ;
-                dott2.style.animation = "jumpup 0.4s 0.2s linear 2";
-                dott3.style.animation = "jumpup 0.4s 0.3s linear 2 ";
-                setTimeout(function() {
-                            }, delayInMilliseconds);
+    btn.addEventListener('click',function(){
+                document.getElementById("dott1").style.animation = 'jumpup 0.4s 0.1s linear 2' ;
+                document.getElementById("dott2").style.animation = "jumpup 0.4s 0.2s linear 2";
+                document.getElementById("dott3").style.animation = "jumpup 0.4s 0.3s linear 2 ";
+               /* setTimeout(function() {
+                            }, delayInMilliseconds);*/
         
         for(var i=currenttime; i<currenttime+4; i++)
         {
@@ -104,12 +104,17 @@
             {
                 slide[i].style.display='block';
             }
+            
         }
+       
         currenttime+=4;
         if(currenttime>=slide.length)
         {
-
             event.target.style.display='none';
+            document.getElementById("dott1").style.backgroundColor = "white";
+            document.getElementById("dott2").style.backgroundColor= "white";
+            document.getElementById("dott3").style.backgroundColor= "white";
+            
         }
     })
 </script>
