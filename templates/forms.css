@@ -25,8 +25,9 @@
 	width: 80%;
 	display: block;
 	margin:auto;
-	padding-top: 70px;
+	padding-top: 40px;
 }
+
 .content-section{
 	float: left;
 	width: 55%;
@@ -34,6 +35,9 @@
 .image-section{
 	float: right;
 	width: 40%;
+	padding-top: 70px;
+	padding-left: 20px;
+	
 }
 .image-section img{
 	width: 100%;
@@ -93,6 +97,7 @@
 	height:auto;
 	display: block;
 	margin:auto;
+
 }
 .content-section .title{
 	text-align: center;

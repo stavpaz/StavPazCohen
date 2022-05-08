@@ -12,6 +12,7 @@
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
+    
 }
 .sliders{
     width: 500%;
@@ -25,6 +26,7 @@
 .slide{
     width: 20%;
     transition: 2s;
+    
 }
 
 .slide img{
@@ -128,7 +130,8 @@ body{
     background-image: url(/Users/stavo/Documents/StavPazCohen/static/m.jpg);
     background-repeat: no-repeat;
     width:1250px;
-    height: 1000px;  
+    height: 100vh;  
+  
 }
 
 

@@ -22,10 +22,15 @@
 .image-section{
 	float: right;
 	width: 40%;
+	padding-top: 10px;
+	padding-right: 40px;
+
+
 }
 .image-section img{
 	width: 100%;
 	height: auto;
+	
 }
 .content-section .title{
 	text-transform: uppercase;
@@ -55,7 +60,7 @@
     font-family: headerfont;
 }
 .content-section .content .button a:hover{
-	background-color: #a52a2a;
+	background-color: #979797;
 	color:#fff;
 }
 
