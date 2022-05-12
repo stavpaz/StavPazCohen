@@ -117,7 +117,16 @@ center{
     font-family: headerfont;
     src: url(/Users/stavo/Documents/StavPazCohen/static/Poppins-Thin.ttf);
 }
+.active {
+    background-color: rgb(158, 158, 158);
+}
 
+a:active {
+    color: rgb(255, 255, 255);
+}
+a:visited {
+    color:rgb(255, 255, 255);
+}
 
 
 
