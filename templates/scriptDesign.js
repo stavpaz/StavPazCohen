@@ -2,18 +2,15 @@
     var btn=document.querySelector('.btn');
     var currenttime=4;
     var count=1;
-
+    
+   
     function anim(){
-        
-        if(count!=((slide.length)/4))
-        {
-                document.getElementById("dott1").style.animation = 'jumpup 0.4s 0.1s linear 2' ;
-                document.getElementById("dott2").style.animation = "jumpup 0.4s 0.2s linear 2";
-                document.getElementById("dott3").style.animation = "jumpup 0.4s 0.3s linear 2 ";
-              
-          count++;
-        }
        
+        stop();
+        start();
+        
+                
+            
         for(var i=currenttime; i<currenttime+4; i++)
         {
             
@@ -37,6 +34,25 @@
             
         }
         
+        setTimeout(stop,984);
+        
+        
+       
+       
     }
 
-    
+    function stop()
+    {
+        
+        
+        document.getElementById("dott1").style.animationPlayState='paused';
+        document.getElementById("dott2").style.animationPlayState='paused';
+        document.getElementById("dott3").style.animationPlayState='paused';
+    }
+
+    function start()
+    {
+        document.getElementById("dott1").style.animationPlayState='running';
+        document.getElementById("dott2").style.animationPlayState='running';
+        document.getElementById("dott3").style.animationPlayState='running';
+    }
