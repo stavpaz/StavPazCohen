@@ -6,7 +6,7 @@
     box-sizing: 0;
 }
 
-#container /*לגשת לID*/ {
+#container  {
     position: absolute;
   justify-content: center;
     align-items: center;
@@ -23,6 +23,7 @@
 .headerdesign
 {
     font-family: headerfont;
+    text-decoration: none;
 }
 
 
@@ -31,6 +32,7 @@ center{
     background-color: rgba(205, 205, 205, 0.6);
     font-size:xx-large;
     font-family: headerfont;
+    
     
 }
 
@@ -122,7 +124,8 @@ button{
     }
 }
 .active {
-    background-color: rgb(158, 158, 158);
+    background-color: #24262b;
+    text-decoration: none;
 }
 
 a:active {
@@ -131,4 +134,5 @@ a:active {
 a:visited {
     color:rgb(255, 255, 255);
 }
+
 

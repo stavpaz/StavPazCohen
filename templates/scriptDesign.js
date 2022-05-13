@@ -34,7 +34,7 @@
             
         }
         
-        setTimeout(stop,984);
+        setTimeout(stop,989);
         
         
        
