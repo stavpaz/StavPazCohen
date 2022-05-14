@@ -127,7 +127,7 @@ center{
 }
 @font-face {
     font-family: headerfont;
-    src: url(/Users/stavo/Documents/StavPazCohen/static/Poppins-Thin.ttf);
+    src: url(../static/Poppins-Thin.ttf);
 }
 
 .active {

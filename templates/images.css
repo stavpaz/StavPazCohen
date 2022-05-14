@@ -128,7 +128,7 @@ center{
 }
 
 body{
-    background-image: url(/Users/stavo/Documents/StavPazCohen/static/m.jpg);
+    background-image: url(../static/m.jpg);
     background-repeat: no-repeat;
     width:1250px;
     height: 100vh;  
@@ -138,7 +138,7 @@ body{
 
 @font-face {
     font-family: headerfont;
-    src: url(/Users/stavo/Documents/StavPazCohen/static/Poppins-Thin.ttf);
+    src: url(../static/Poppins-Thin.ttf);
 }
 
 .active {
