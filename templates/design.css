@@ -10,12 +10,12 @@
     position: absolute;
   justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 5vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(300px,300px));
-    column-gap: 10px;
-    row-gap: 10px;
+    grid-template-columns: repeat(auto-fill,minmax(50vh,50vh));
+    column-gap: 1vh;
+    row-gap:0.5vh;
 }
 
 
@@ -37,8 +37,8 @@ center{
 }
 
 img{
-    width: 300px;
-    height: 300px;
+    width: 50vh;
+    height: 50vh;
     object-fit: cover;
     object-position: center;
 }
@@ -50,13 +50,13 @@ img{
 
 
 .container{
-    width: 40px;
-    margin: 70px auto;
+    width: 8vh;
+    margin: 14vh auto;
 }
 
 .dot{
-    width: 10px;
-    height:10px ;
+    width: 1.8vh;
+    height:1.8vh ;
     display: inline-block ;
     border-radius:50% ;
 }
@@ -106,10 +106,7 @@ img{
 }
 button{
     border: none;
-    border-radius: 5px;
-    width: 150px;
-    padding: 6px;
-    font-size: 20px;
+    font-size: 140%;
     font-family: headerfont;
     background-color: white;
     color: rgb(121, 121, 121);
