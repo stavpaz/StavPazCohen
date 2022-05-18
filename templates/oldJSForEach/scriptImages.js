@@ -1,5 +1,5 @@
 var counter=1;
-setInterval(function(){
+function SlidePhotos  (){
     document.getElementById('bt'+counter).checked=true;
     counter++;
     if(counter>4)
@@ -7,4 +7,5 @@ setInterval(function(){
         counter=1;
  
     }
-},5000)
+}
+setInterval(SlidePhotos,5000)

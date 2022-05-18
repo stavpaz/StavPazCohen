@@ -9,15 +9,31 @@
 {
     font-family: headerfont;
     text-decoration: none;
+	
 }
 
+.title{
+	text-transform: uppercase;
+	font-size: 140%;
+}
+ 
+#titlehome{
+	margin-top: 2vh;
+}
+
+#titledesign{
+	margin-top: 3vh;
+}
+#titleforms{
+	margin-top: -5vh;
+}
 #imagecenter{
 	
 	color: rgb(108, 108, 108);
 	background-color: rgb(255, 255, 255,0.3);
 	font-size:xx-large;
 }
-center{
+.navtoall{
     color: rgb(255, 255, 255);
     background-color: rgb(108, 108, 108,0.2);
     font-size:xx-large;  
@@ -37,7 +53,6 @@ a:active {
 a:visited {
     color:rgb(255, 255, 255);
 }
-
 
 
 .containerfooter{
@@ -152,7 +167,7 @@ ul{
 }
 .content-section .title{
 	text-transform: uppercase;
-	font-size: 160%;
+	font-size: 140%;
 }
 
 
@@ -223,7 +238,7 @@ ul{
 }
 .content-section .title{
 	text-transform: uppercase;
-	font-size: 160%;
+	font-size: 140%;
 }
 .content-section .content h3{
 	margin-top: 2vh;
@@ -391,7 +406,7 @@ ul{
 
 /* Home page */
 .images{
-    margin:0;
+    margin:-2.5vh;
     padding: 0;
     height: 100vh;
     display:flex;
@@ -497,7 +512,8 @@ ul{
     background-image: url(../static/m.jpg);
     background-repeat: no-repeat;
     width:1250px;
-    height: 100vh;  
+    height: 100vh; 
+	background-color: #24262b; 
   
 }
 
