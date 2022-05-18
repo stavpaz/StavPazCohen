@@ -1,11 +1,8 @@
 # StavPazCohen
 personal homework in web class 
-Names for the pages in the folder :
-images page - is the home page
 forms-is the contact us page
-note:i was afraid to change the names and to damage my website.
 header instructions :
-i added header for contact us and about us page because of the instructions but for home page and the gallry it will make it ugly so i didnt.
+all titles is one class names title.
 responsive grid:
 The responsive grid is for the gallry page.
 animation :
