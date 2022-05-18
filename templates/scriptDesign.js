@@ -1,4 +1,4 @@
- var slide=document.querySelectorAll('.slide');
+ var slide=document.querySelectorAll('.Designslide');
     var btn=document.querySelector('.btn');
     var currenttime=4;
     var count=1;

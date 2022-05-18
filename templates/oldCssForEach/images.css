@@ -100,34 +100,8 @@
     background:  #e7dfd8;
 }
 
-nav{
-    position: static;
-    position: relative;
-    font-family: headerfont;
-}
-.headcontactus
-{
-    color: rgb(142, 142, 142); 
-    background-color: rgb(255, 255, 255,0.4);
-    font-family: headerfont;
-    
 
-}
-
-.headerhome
-{
-    font-family: headerfont;
-    text-decoration: none;
-}
-
-
-center{
-    color: rgb(108, 108, 108);
-    background-color: rgb(255, 255, 255,0.3);
-    font-size:xx-large;
-}
-
-body{
+#HomeBody{
     background-image: url(../static/m.jpg);
     background-repeat: no-repeat;
     width:1250px;
@@ -136,82 +110,3 @@ body{
 }
 
 
-@font-face {
-    font-family: headerfont;
-    src: url(../static/Poppins-Thin.ttf);
-}
-
-.active {
-    background-color:  #24262b;
-}
-
-a:active {
-    color: rgb(255, 255, 255);
-}
-a:visited {
-    color:rgb(255, 255, 255);
-}
-.containerfooter{
-	max-width: 234vw;
-	margin:auto;
-}
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
-ul{
-	list-style: none;
-}
-.footer{
-    background-color: #24262b;
-    margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
-   font-family: headerfont;
-}
-.footer-col h4{
-	font-size: 110%;
-	color: #ffffff;
-    text-transform: capitalize;
-	margin-bottom: 3vh;
-	font-weight: 500;
-	position: relative;
-}
-.footer-col ul li:not(:last-child){
-	margin-bottom: 3vh;
-}
-.footer-col ul li a{
-	font-size: 95%;
-	text-transform: capitalize;
-	color: #ffffff;
-    text-decoration: none;
-	display: block;
-	
-}
-.footer-col .social-links a{
-	display: inline-block;
-	height: 6vh;
-	width: 6vh;
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 6vh;
-	border-radius: 50%;
-	color: #ffffff;
-	
-}
-
-.footer-col .social-links img{
-	display: inline-block;
-	height:  6vh;
-	width: 6vh;
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height:  6vh;
-	border-radius: 50%;
-	color: #ffffff;
-    opacity: 90%;
-}
