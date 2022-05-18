@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myFirstFont;
+
+}
+
+#GridPage{
+	grid-area: header;
+}
+
+@font-face  {
+    font-family: MyFont;
+    src: url(../static/Fonts/Poppins-Thin.ttf );
+}
+
+.gridContainer {
+	display: grid;
+	height: 130vh;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 0.5fr 2fr 2fr 1fr;
+	grid-template-areas:
+		"header  header header"
+		"img  main main"
+		"img  main main"
+		"footer  footer footer";
+}
+
+
+
+
+/*__Page Image___*/
+
+
+.GridPage {
+	grid-area: img;
+	background-size: cover;
+    background-image: url(../static/id.jpg);
+    
+}
+
+
+
+
+/*__main___*/
+
+#ma {
+	grid-area: main;
+	background-color: #F3F4F2;
+}
+
+#ma h3 {
+	margin-top: 2%;
+	font-size: 150%;
+	text-align: left;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	margin-left: 3%;
+}
+
+
+#text {
+	margin-top: 2%;
+	font-size: 120%;
+	text-align: left;
+	color: rgb(0, 0, 0);
+	font-weight: inherit;
+	margin-left: 3%;
+    
+   
+}
+
+.footer{
+	grid-area: footer;
+}
+
+
+
+

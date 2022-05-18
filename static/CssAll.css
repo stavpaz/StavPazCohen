@@ -41,7 +41,7 @@
 
 @font-face {
     font-family: headerfont;
-    src: url(../static/Poppins-Thin.ttf);
+    src: url(../static/Fonts/Poppins-Thin.ttf);
 }
 
 .active {
@@ -519,3 +519,60 @@ ul{
 
 
 /* End Home page */
+
+/*Grid Page*/
+.gridContainer {
+	display: grid;
+	height: 100vh;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 0.5fr 2fr 2fr 1fr;
+	grid-template-areas:
+		"header  header header"
+		"img  main main"
+		"img  main main"
+		"footer  footer footer";
+}
+
+#GridPage{
+	grid-area: header;
+} 
+
+
+.GridPage {
+	grid-area: img;
+	background-size: cover;
+    background-image: url(../static/Grid.jfif);
+    
+} 
+
+#ma {
+	grid-area: main;
+	background-color: #F3F4F2;
+}
+
+#ma h3 {
+	margin-top: 3%;
+	font-size: 150%;
+	text-align: left;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	margin-left: 0;
+}
+
+
+#text {
+	margin-top: 0;
+	font-size: 120%;
+	text-align: left;
+	color: rgb(0, 0, 0);
+	font-weight: inherit;
+	margin-left: 3%;
+    
+   
+}
+
+.footer{
+	grid-area: footer;
+}
+
+/* End Grid Page */
