@@ -55,6 +55,10 @@ a:visited {
 }
 
 
+#footerhome{
+	margin-top: 17vh;
+	
+}
 .containerfooter{
 	max-width: 234vw;
 	margin:auto;
@@ -446,12 +450,13 @@ ul{
     margin-top: -7vh;
     display: flex;
     justify-content: center;
+
 }
 
 .manu-btn{
-    border: 2px solid ;
-    padding: 5px;
-    border-radius: 10px;
+    border: 0.4vh solid ;
+    padding: 1vh;
+    border-radius: 5vh;
     cursor: pointer;
     transition: 1s;
 }
@@ -485,9 +490,9 @@ ul{
 
 }
 .navigator div{
-    border: 2px solid;
-    padding: 5px;
-    border-radius: 10px;
+    border: 0.4vh solid;
+    padding: 1vh;
+    border-radius: 5vh;
     transition: 1s;
 }
 .navigator div:not(:last-child){
@@ -511,11 +516,14 @@ ul{
 #HomeBody{
     background-image: url(../static/m.jpg);
     background-repeat: no-repeat;
-    width:1250px;
-    height: 100vh; 
-	background-color: #24262b; 
+	background-size:auto;
+    height: 160vh; 
+	width:auto;
+	
   
 }
+
+
 
 
 /* End Home page */
